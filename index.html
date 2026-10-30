@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0912">
+  <meta name="description" content="Découvre ShyWeb, le site personnel d'Ethan : présentation, apprentissage du développement web et projets.">
+  <title>ShyWeb | L'univers d'Ethan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="grain"></div>
+  <div class="petals" aria-hidden="true">
+    <span>✿</span><span>✽</span><span>✿</span><span>✾</span><span>✿</span><span>✽</span>
+  </div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigation principale">
+      <a class="brand" href="#accueil" aria-label="ShyWeb, accueil">
+        <span class="brand-mark">S</span><span>Shy<span>Web</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Afficher le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#accueil" class="active">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#apprentissage">Apprentissage</a>
+        <a href="#projets">Projets</a>
+        <a href="#contact" class="nav-contact">Me retrouver <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="accueil">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> BIENVENUE DANS MON UNIVERS</div>
+        <h1>Je suis Ethan.<br>Je construis <span class="gradient-text">ShyWeb.</span></h1>
+        <p class="hero-description">Un petit coin d'internet où je partage ma présentation, ce que j'apprends et les projets que je crée en avançant dans le développement web.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#apropos">Découvrir mon univers <span>↘</span></a>
+          <a class="button button-ghost" href="quiz.html">Faire les quiz <span>→</span></a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span> Curieux aujourd'hui, créateur demain.</div>
+      </div>
+
+      <div class="hero-visual" aria-label="Illustration décorative ShyWeb">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="visual-glow"></div>
+        <div class="visual-card">
+          <div class="visual-top"><span class="window-dots"><i></i><i></i><i></i></span><span>shyweb.dev</span><span class="tiny-lock">⌑</span></div>
+          <div class="code-lines">
+            <p><span class="code-purple">const</span> <span class="code-white">passion</span> = <span class="code-pink">"Créer"</span>;</p>
+            <p><span class="code-purple">let</span> <span class="code-white">niveau</span> = <span class="code-green">"En progression"</span>;</p>
+            <p class="code-gap"><span class="code-muted">// Chaque ligne compte.</span></p>
+            <p><span class="code-purple">function</span> <span class="code-blue">build</span>() {</p>
+            <p class="indent"><span class="code-purple">return</span> <span class="code-pink">"ShyWeb"</span>;</p>
+            <p>}</p>
+          </div>
+          <div class="visual-bottom"><span><b></b> EN APPRENTISSAGE</span><span>✦ 2026</span></div>
+        </div>
+        <div class="floating-chip chip-top">✦ Créativité</div>
+        <div class="floating-chip chip-bottom"><span class="chip-icon">⌘</span> HTML · CSS · JS</div>
+        <div class="sparkle sparkle-a">✳</div><div class="sparkle sparkle-b">✧</div>
+      </div>
+      <a class="scroll-cue" href="#apropos"><span></span> DÉFILER POUR EXPLORER</a>
+    </section>
+
+    <section class="section about-section" id="apropos">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="section-kicker">01 / QUI SUIS-JE ?</span><h2>Un peu plus <span class="gradient-text">sur moi.</span></h2></div>
+          <p>Pas besoin d'être expert pour commencer. Il suffit d'avoir envie d'apprendre et de tester des idées.</p>
+        </div>
+        <div class="about-grid">
+          <article class="panel about-main">
+            <div class="panel-icon">✦</div>
+            <span class="mini-label">HELLO, MOI C'EST ETHAN</span>
+            <h3>J'aime apprendre,<br>créer et expérimenter.</h3>
+            <p>J'ai créé ShyWeb pour découvrir le développement web et avoir un endroit où présenter mon univers. Ce site évoluera au fil de mes idées et de mes progrès.</p>
+            <a class="text-link" href="presentation.html">Lire ma présentation complète <span>↗</span></a>
+            <div class="about-decoration">S.</div>
+          </article>
+          <article class="panel fact-card">
+            <div class="fact-symbol">⌘</div><span class="mini-label">MON ÉTAT D'ESPRIT</span>
+            <h3>Toujours en train<br>d'apprendre.</h3>
+            <p>J'expérimente, je fais des erreurs, je corrige et je recommence.</p>
+          </article>
+          <article class="panel fact-card fact-card-alt">
+            <div class="fact-symbol">✧</div><span class="mini-label">MON OBJECTIF</span>
+            <h3>Créer des choses<br>dont je suis fier.</h3>
+            <p>Transformer mes idées en projets concrets, petit à petit.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section learning-section" id="apprentissage">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="section-kicker">02 / CE QUE J'APPRENDS</span><h2>Mes outils pour <span class="gradient-text">créer.</span></h2></div>
+          <p>Voici quelques technologies que je découvre et que je souhaite continuer à maîtriser.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card panel">
+            <div class="skill-top"><span class="skill-logo html-logo">5</span><span class="skill-number">01</span></div>
+            <h3>HTML</h3><p>La structure d'une page web : titres, textes, liens et contenu.</p>
+            <div class="skill-tag">STRUCTURE</div>
+          </article>
+          <article class="skill-card panel">
+            <div class="skill-top"><span class="skill-logo css-logo">✳</span><span class="skill-number">02</span></div>
+            <h3>CSS</h3><p>Le style, les couleurs, les mises en page et les animations.</p>
+            <div class="skill-tag">DESIGN</div>
+          </article>
+          <article class="skill-card panel">
+            <div class="skill-top"><span class="skill-logo js-logo">JS</span><span class="skill-number">03</span></div>
+            <h3>JavaScript</h3><p>Ajouter de l'interactivité et rendre les pages plus vivantes.</p>
+            <div class="skill-tag">INTERACTIVITÉ</div>
+          </article>
+        </div>
+        <div class="learning-note"><span class="note-star">✦</span><p><strong>Mon parcours est en construction.</strong> Ces cartes représentent ce que j'apprends, pas un niveau d'expertise. Le but, c'est de progresser.</p></div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projets">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="section-kicker">03 / MES CRÉATIONS</span><h2>Des idées qui prennent <span class="gradient-text">forme.</span></h2></div>
+          <p>Un projet à la fois. Cette section grandira avec mes prochaines créations.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card panel">
+            <div class="project-preview preview-shyweb">
+              <div class="preview-window"><div class="preview-bar"><i></i><i></i><i></i></div><div class="preview-title">Shy<span>Web</span></div><div class="preview-line"></div><div class="preview-boxes"><i></i><i></i><i></i></div></div>
+              <span class="preview-label">PROJET PERSONNEL</span>
+            </div>
+            <div class="project-content"><div class="project-meta"><span>01 / SITE WEB</span><span class="project-status"><i></i> EN ÉVOLUTION</span></div><h3>ShyWeb</h3><p>Mon site personnel, créé pour apprendre le HTML et le CSS tout en présentant mon univers.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>Web design</span></div></div>
+          </article>
+          <article class="project-card panel project-future">
+            <div class="future-art"><div class="future-orbit"></div><span>✧</span><small>PROCHAINEMENT</small></div>
+            <div class="project-content"><div class="project-meta"><span>02 / À VENIR</span><span class="project-status status-planned"><i></i> EN PRÉPARATION</span></div><h3>Le prochain projet</h3><p>De nouvelles idées arriveront ici au fur et à mesure de mes expérimentations.</p><div class="project-tags"><span>Curiosité</span><span>Créativité</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quiz-section">
+      <div class="container">
+        <div class="quiz-banner panel">
+          <div class="quiz-orb">?</div>
+          <div><span class="section-kicker">04 / À TOI DE JOUER</span><h2>Tu penses me connaître ?</h2><p>Teste tes connaissances avec les quiz du site. On va voir si tu as bien exploré !</p></div>
+          <a class="button button-primary" href="quiz.html">Accéder aux quiz <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-inner">
+        <span class="section-kicker">05 / RESTONS CONNECTÉS</span>
+        <h2>On se retrouve <span class="gradient-text">ailleurs ?</span></h2>
+        <p>Tu peux aussi retrouver mes espaces en ligne ici.</p>
+        <div class="social-links">
+          <!-- Remplace les # par les liens de tes profils. -->
+          <a href="#" aria-label="YouTube https://www.youtube.com/@ShykuIsHere">YouTube <span>↗</span></a>
+          <a href="#" aria-label="TikTok https://www.tiktok.com/@fracturesmpm">TikTok <span>↗</span></a>
+          <a href="#" aria-label="Discord https://discord.gg/Q79yUSvwxB">Discord <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand" href="#accueil"><span class="brand-mark">S</span><span>Shy<span>Web</span></span></a><p>Créé avec curiosité par Ethan · 2026</p><a href="#accueil" class="back-top">Retour en haut ↑</a></div>
+  </footer>
+
+  <script>
+    const menuButton = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    menuButton.addEventListener('click', () => {
+      const opened = navLinks.classList.toggle('open');
+      menuButton.setAttribute('aria-expanded', String(opened));
+    });
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        menuButton.setAttribute('aria-expanded', 'false');
+      });
+    });
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.panel, .section-heading, .learning-note, .quiz-banner').forEach(el => {
+      el.classList.add('reveal');
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
